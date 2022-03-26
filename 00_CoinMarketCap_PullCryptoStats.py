@@ -36,8 +36,7 @@ def coinmarketcap_coins(n):
         # Find where the coin data actually is
         # Here you find keyattributes/colnames in the dictionary
         # Each Crypto stats is in rows with the order following keyattributes
-        listings = coin_data['props']['initialState']['cryptocurrency']
-        ['listingLatest']['data']
+        listings = coin_data['props']['initialState']['cryptocurrency']['listingLatest']['data']
 
         # Loop through it to match the keysAttribute to data
         # Assign it and create a dicitonary for each coin
